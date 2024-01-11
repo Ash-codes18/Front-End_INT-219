@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(47, 52, 79);
+}
+
+
+u {
+    color:whitesmoke;
+}
+
+#heading {
+  text-align: center;
+  color: pink;
+}
+
+#head {
+  text-align: center;
+  color: pink;
+}
+
+.tags{
+    color: rgb(0, 255, 128);
+}
+
+a{
+  color: antiquewhite;
+}
+
+
+table,th,td{
+  border: solid wheat 2px;
+  border-collapse: collapse;
+  background-color: black;
+}
+
+
+.orange{
+  width: 100%;
+  height: 100px;
+  background-color:orangered;
+}
+
+.orchid{
+  background-color: orchid;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+
+
+#end{
+  color:crimson;
+  font-size: xx-large;
+  font-family:cursive;
+  font-style: italic;
+  font-weight: 400;
+}
