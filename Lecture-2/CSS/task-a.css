@@ -1,0 +1,26 @@
+table,th,td{
+    border: solid black 2px;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 15px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.teal:hover{
+    background-color: orangered;
+}

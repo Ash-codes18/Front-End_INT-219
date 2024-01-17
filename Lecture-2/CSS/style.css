@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(0, 0, 0, 0.731);
+    color: beige;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    font-style: oblique;    
+}
+
+
+
+table,td,th{
+    border: solid aquamarine 2px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+}

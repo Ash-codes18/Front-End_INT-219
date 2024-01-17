@@ -1,0 +1,66 @@
+body{
+    background-color:#343a40;
+    color: aliceblue;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.header{
+    color:crimson;
+    font-size:xxx-large;
+    font-style: oblique;
+    font-family: 'Lucida Sans',Verdana;
+}
+
+.fhead{
+    color: coral;
+}
+
+.content {
+    display: flex;
+    padding: 35px;
+    margin: 20px;
+}
+.content .Bio{
+    margin-top: 30px;
+    justify-content: left;
+    align-items:start;
+}
+
+
+
+.content .photo{
+    justify-content: center;
+    align-items:center;
+}
+
+img{
+    border: solid rgb(181, 1, 76) 2px;
+    border-radius: 40%;
+    height: 200px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.leg{
+    font-size: x-large;
+}
+
+
+.bg {
+    background-color: #343a30;
+    color: white; 
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+h4 {
+    font-size: 20px; 
+}
+
+.Form{
+    color: antiquewhite;
+}
