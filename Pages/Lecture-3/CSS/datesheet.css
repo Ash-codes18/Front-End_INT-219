@@ -1,0 +1,89 @@
+body{
+    background-color: #343a40;
+    color:beige;
+}
+
+
+.heading {
+    display: block;
+    text-align: center;
+    font-size: x-larger;
+    padding: 20px;
+}
+
+.heading:hover{
+    transition: 0.3s;
+    letter-spacing: 3px;
+    font-size:xx-large;
+}
+
+.header{
+    background-color: #262a39;
+}
+
+table,td,th{
+    border: solid rgb(14, 201, 86) 3px;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(75, 94, 105, 0.279);
+    color: aliceblue ;
+}
+
+
+#date{
+    background-color: rgb(243, 65, 95);
+    
+}
+#date:hover{
+    transition: 0.25s;
+    background-color: greenyellow;
+    color:black;
+    font-size: large;
+}
+
+#time1{
+    background-color: teal;
+}
+#time1:hover{
+    transition: 0.25s;
+    background-color: orangered;
+    color:black;
+    font-size: large;
+}
+#time2{
+    background-color: purple;
+}
+#time2:hover{
+    transition: 0.25s;
+    background-color: rgb(241, 157, 142);
+    color:black;
+    font-size: large;
+}
+#time3{
+    background-color: rgb(128, 47, 0);
+}
+#time3:hover{
+    transition: 0.25s;
+    background-color: rgb(0, 255, 51);
+    color:black;
+    font-size: large;
+}
+#time4{
+    background-color: rgb(128, 0, 0);
+}
+#time4:hover{
+    transition: 0.25s;
+    background-color: rgb(18, 129, 84);
+    color:black;
+    font-size: large;
+}
+
+
+

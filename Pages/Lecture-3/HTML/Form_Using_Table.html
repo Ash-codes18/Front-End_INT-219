@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Form in a Table</title>
+</head>
+<body>
+    
+
+    <div class="header">
+        <h1><u><i><em>Form Using Table</em></i></u></h1>
+    </div>
+
+    <br><br><br>
+
+    <div class="table">
+
+        <fieldset>
+            <legend id="leg">Form in a table</legend>
+           
+            <form action="#" onsubmit="return check();">
+
+
+
+                <table id="center">
+
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" id="User" placeholder="Enter Your Username">
+                            <br><br>
+                            <span id="erruser"></span>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" id="pass" placeholder="Enter Your Password">
+                            <br><br>
+                            <span id="errpass"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Contact No.</td>
+                        <td><input type="text" id="num" placeholder="Enter Your Number">
+                        <br><br>
+                        <span id="errnum"></span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" placeholder="Enter Your Address"></td>
+                    </tr>
+
+                </table>
+                <center><a href="#"><input name="submit" type="submit" id="submit" value="Submit"></a></center>
+            </form>
+            <script src="../JS/main.js"></script>
+            <br><br>
+
+
+        </fieldset>
+
+    </div>
+
+
+</body>
+</html>
