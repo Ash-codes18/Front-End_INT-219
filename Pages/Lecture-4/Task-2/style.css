@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #343a40;
+    color:beige;
+}
+
+
+.header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #262a39;
+}
+
+
+.table{
+    /* border: solid palevioletred 4px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+#leg{
+    font-size: larger;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+input{
+    padding: 10px;
+    border-radius: 8%;
+}
+
+
+table,td{
+    border: solid rgb(14, 201, 86) 3px;
+    border-collapse: collapse;
+    border-radius: 40%;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+#center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit{
+    background-color: rgb(119, 216, 112) ;
+    border: solid green;
+    border-radius: 30%;
+    padding: 5px 20px;
+    font-size: large;
+    font-family: 'Segoe UI', Verdana;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+#submit:hover{
+    transition: 0.3s;
+    background-color: rgb(188, 39, 131);
+    color: aliceblue;
+    border: solid #2c0404 3px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+#reset:hover{
+    transition: 0.3s;
+    background-color: rgb(59, 39, 188);
+    color: aliceblue;
+    border: solid #04182c 3px;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#reset{
+    background-color: darkorange ;
+    border: solid rgb(255, 254, 192);
+    border-radius: 30%;
+    padding: 5px 20px;
+    font-size: large;
+    font-family: 'Segoe UI', Verdana;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+
+#message {
+    display:none;    
+    background: lightblue;
+    color: #000000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    /* width: 25%; */
+  }
+  
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✅";
+}
+
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "❌";
+}
