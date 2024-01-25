@@ -1,0 +1,67 @@
+body{
+    background-color: #343a40;
+    color: antiquewhite;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-style: oblique;
+    font-size: x-large;
+    transition-duration: 0.3s;
+}
+
+.header:hover{
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+fieldset{
+    width: 50%;
+}
+
+form{
+    padding: 25px;
+}
+
+input{
+    padding: 10px;
+}
+
+
+#submit{
+    color: blanchedalmond;
+    background-color: crimson;
+    border: solid rgb(225, 114, 114) 2px;
+    border-radius: 30%;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+#submit:hover{
+    transition: 0.3s;
+    color: black;
+    background-color: rgb(147, 226, 73);
+    border: solid rgba(172, 255, 47, 0.63);
+    font-size: x-large;
+}
+
+#err{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: aquamarine;
+    transition-duration: 0.3s;
+}
+#err:hover{
+    letter-spacing: 2px;
+    transition: 0.3s;
+    color: rgb(212, 144, 246);
+
+}

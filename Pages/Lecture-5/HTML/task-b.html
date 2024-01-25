@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>File Upload</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1><em><i>File Upload</i></em></h1>
+    </div>
+
+
+<div class="inpfield">
+    <center>
+    <fieldset>
+        <legend>Upload a File</legend>
+
+        <form onsubmit="return sizecheck()"> 
+            <center>
+            <label id="upltext">Select your file : </label>
+            <input type="file" id="upl">
+            <br><br><br><br>
+            <input type="submit" id="submit" value="Submit" >
+        </center>
+        </form>
+
+    </fieldset>
+    </center>
+</div>
+
+
+<div id="err"></div>
+
+
+
+
+
+    <script src="../JS/file.js"></script>
+    
+</body>
+</html>

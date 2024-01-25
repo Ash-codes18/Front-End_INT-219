@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Password Validation</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1><em><i>Password Validation</i></em></h1>
+    </div>
+
+
+<div class="inpfield">
+    <center>
+    <fieldset>
+        <legend>Enter a password</legend>
+
+        <form onsubmit="return check()" autocomplete="new-password"> 
+            <input type="password" id="pass">
+            <br><br><br><br>
+            <input type="submit" id="submit" value="Submit" >
+        </form>
+
+    </fieldset>
+    </center>
+</div>
+
+
+<div id="err"></div>
+
+
+
+
+
+    <script src="../JS/form.js"></script>
+    
+</body>
+</html>
