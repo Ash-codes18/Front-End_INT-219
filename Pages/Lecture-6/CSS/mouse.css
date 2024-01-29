@@ -1,0 +1,22 @@
+body{
+    background-color: #343a40;
+    color: antiquewhite;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-style: oblique;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+.header:hover{
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+#pic{
+    height: 300px;
+}

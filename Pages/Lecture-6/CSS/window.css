@@ -1,0 +1,44 @@
+body{
+    background-color: #343a40;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-style: oblique;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+.header:hover{
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding:100px;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 900;
+    transition-duration: 0.3s;
+}
+#close{
+    background-color: crimson;
+}
+
+#open{
+    background-color: rgb(95, 255, 47);
+}
+
+.button:hover{
+    padding: 125px;
+}
+
