@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #343a40;
+    color: rgb(255, 101, 183);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.header{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-style: oblique;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+.header:hover{
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+
+.text1{
+    margin: 20px;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.646);
+    color:blanchedalmond;
+}
+
+.sub{
+    margin: 20px;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(228, 2, 66); 
+    color: rgb(187, 251, 253);
+    font-size:17px;
+    box-shadow: crimson 3px;
+    transition-duration: 0.4s;
+}
+
+.sub:hover{
+    transition: all 0.3s;
+    letter-spacing: 3px;
+}
+
+
+
+.box1 {
+    margin: 0 auto 30px auto;
+    padding: 30px;
+    width: 50%;
+    max-width: 600px;
+    border: 3px solid salmon;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box1 {
+        margin: 20px;
+    }
+}
+
