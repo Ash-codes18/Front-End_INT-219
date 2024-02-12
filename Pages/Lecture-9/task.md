@@ -1,0 +1,1 @@
+- create a text display the greatest number out of 3 numbers in paragraph tag when you click on the text it will display the largest number out of 3 numbers.

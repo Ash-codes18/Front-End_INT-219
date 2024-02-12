@@ -1,0 +1,59 @@
+.no{
+    margin: 10px;
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(209, 6, 70);
+    font-family: Tahoma;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    margin: 20px;
+}
+
+#circle{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: solid  5px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.squares{
+    display: flex;
+}
+
+.square{
+    height: 100px;
+    margin: 40px;
+    width: 100px;
+    border: solid  5px;
+}
+
+
+button,input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px palevioletred;
+}
+
+
+img{
+    height: 554px;
+    width: 554px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

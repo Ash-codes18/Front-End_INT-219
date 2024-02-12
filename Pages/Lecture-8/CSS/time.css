@@ -1,0 +1,29 @@
+body{
+    margin-top: 40px;
+    font-family: Verdana;
+    background-color: rgba(14, 14, 14, 0.925);
+    color: azure;
+}
+
+#time{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding: 35px;
+    border: 3px solid rgb(153, 0, 255);
+    background-color: rgb(201, 233, 255);
+    color: teal;
+    font-size: 40px;
+    width: 70%;
+    height: 80px;
+
+
+
+}
+button{
+background-color: black;
+color: white;
+font-size: 20px;
+margin: 5px;
+padding: 5px;
+    
+}
