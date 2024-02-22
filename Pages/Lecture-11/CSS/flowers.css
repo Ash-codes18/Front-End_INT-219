@@ -1,0 +1,57 @@
+.flower{
+    display: flex;
+    background-color: black;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+}
+#centered{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color:bisque;
+    margin-left:450px;
+    margin-top:200px ;
+    position: absolute;
+}
+.petals{
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#p2{
+    position: relative;
+    margin-left:370px;
+    margin-top: 200px;
+
+}
+#p1{
+    position: absolute;
+    margin-left:410px;
+    margin-top: 270px;
+}
+#p3{
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 130px;
+}
+
+#p4{
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 130px;
+}
+#p5{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 200px;
+} #p6{
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 270px;
+}
+#switch{margin-left: 550px;
+    margin-top: 30px;
+}

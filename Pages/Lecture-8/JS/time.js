@@ -1,11 +1,11 @@
 let a;
 
 function interval(){
-    a=setInterval(show,10);
+    a=setInterval(show,100);
 }
 
-function show(){let date=new Date();
-    document.getElementById("timetext").innerHTML=date;
+function show(){
+    document.getElementById("timetext").innerHTML=Date();
 }   
 
 function stop1(){

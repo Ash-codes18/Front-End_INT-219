@@ -1,0 +1,40 @@
+.ears{
+    height: 80px;
+    width: 90px;
+    border-radius:50%;
+    color: black;
+    border: solid 5px;
+    display: inline-block;
+    margin: auto;
+       
+}
+
+.eyes{
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    color: black;
+    border: solid 5px;
+    /* margin-top: 45px; */
+    margin-left: 37px;
+    display: inline-block;
+}
+.mouth{
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    border: solid 5px;
+    /* margin-top: 25px; */
+    margin-left: 87px;
+    display: block;
+}
+
+
+.face{
+    height: 200px;
+    width: 250px;
+    border-radius: 45%;
+    color: black;
+    border: solid 5px;
+    position: absolute;
+}

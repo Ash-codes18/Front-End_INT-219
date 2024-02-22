@@ -76,5 +76,5 @@ h3.innerHTML='Ashmit Mehta'
 para.innerHTML = 'Reg No: 12212469';
 div.appendChild(h3);
 div.appendChild(para);
-document.body.appendChild(div);
+document.body.append(div);
 
