@@ -62,7 +62,7 @@ function operation(oper) {
 function decimal() {
     if (!decimalFlag) {
         if (!isSecondOperand) {
-            val1 += ".";
+            val1 += ".";    
         } else {
             val2 += ".";
         }
