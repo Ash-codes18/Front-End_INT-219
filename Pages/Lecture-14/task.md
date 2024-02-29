@@ -1,0 +1,2 @@
+Create a paragraph in which you have to include the syllabus of mid-term exam of Maths then you have to apply relevant css using JQuery
+then apply resize window event, whenever you are resizing the window display a start pattern in the console. 
