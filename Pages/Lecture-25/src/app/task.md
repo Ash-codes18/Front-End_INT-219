@@ -1,0 +1,1 @@
+Create a service called addition in this service you have to return addition of three numbers. You have to access this service in the component maths.

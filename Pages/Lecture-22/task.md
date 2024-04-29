@@ -1,0 +1,1 @@
+- create a typescript program named demo.ts in which you need to create a calculator with 4 different function add, subtract, multiply and divide. and display the results on the console.
